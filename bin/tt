@@ -17,7 +17,7 @@ export const tt = new Command()
   .description('Run custom script in package.json, like yarn run.')
   .type('script', new ScriptType())
   .stopEarly()
-  .arguments('<script:string:script> [...params:file]')
+  .arguments('<script:script> [...params:file]')
   .action((_, scriptName, params = []) => {
     console.log(scriptName, params)
   })
