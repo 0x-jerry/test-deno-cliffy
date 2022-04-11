@@ -1,10 +1,13 @@
 # Setup
 
 ```sh
+# reload ohmyzsh, if you are not use ohmyzsh, just ignore this line.
 omz reload
 
+# generate completions for zsh
 ./bin/tt completions zsh > tt.zsh
 
+# set `PATH` env and source tt.zsh
 source ./source.zsh
 ```
 
