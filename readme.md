@@ -22,3 +22,7 @@ Now, we can see an error like this:
 $ tt deno _arguments:463: command not found: script-script
 tt
 ```
+
+## Demo
+
+![](demo.gif)
