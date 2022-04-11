@@ -3,7 +3,7 @@
 ```sh
 omz reload
 
-./tt.ts completions zsh > tt.zsh
+./bin/tt completions zsh > tt.zsh
 
 source ./source.zsh
 ```
